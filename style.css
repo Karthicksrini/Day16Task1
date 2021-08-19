@@ -1,0 +1,90 @@
+div{
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-color:rgb(219, 206, 206);
+}
+
+div{
+    border-right:1px solid rgb(104, 88, 88);
+    margin-bottom:20px;
+    padding:17px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:none;
+}
+.col3{
+    border:none;
+    font-family: 'Playfair Display', serif;
+}
+.col6{
+    border:none;
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    border:4px solid rgb(104, 88, 88);
+}
+.side-title{
+    border:2px solid rgb(85, 82, 82);
+    padding: 10px;
+    margin-left:40px;
+
+}
+.main-title{
+    margin-left:50px;
+    font-size:5rem;
+    font-weight:bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+.head_hl{
+    font-size:3.3rem;
+    font-weight: bold;
+    font-family:  Verdana, sans-serif;
+}
+
+.head_h2{
+    font-size:3.3rem;
+    font-weight: bold;
+    font-family: 'Style Script', cursive;
+
+}
+
+.head_h3{
+    font-size:3.3rem;
+    font-weight: bold;
+    font-family: 'Lobster', 'cursive';
+
+}
+
+.head_h4{
+    font-size:3.3rem;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.head_h5{
+    font-size:3.3rem;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.head_h6{
+    font-size:3.3rem;
+    font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+p{
+    font-size:1.2rem;
+}
+
